@@ -36,13 +36,15 @@
 - **Description**:
   - 创建 `engine/data/piece-rules.json`：定义棋子类型（军旗/地雷/炸弹/工兵/白板）、每方数量、是否可移动、默认属性
   - 实现 `PieceFactory`：根据数据表生成每方 25 枚棋子实例
-  - 白板棋子默认 `attributes = { rank: 0 }`
+  - 白板棋子默认 `attributes = { rank: 0 }`，默认名"白板"
+  - 特色棋子默认名：军旗、地雷、炸弹、工兵
   - 不硬编码等级链，等级碰撞通过 `attributes.rank` 比较
 - **Acceptance Criteria Addressed**: AC-2, AC-4
 - **Test Requirements**:
   - `rule` TR-3.1: 每方生成 25 枚（军旗1+地雷3+炸弹2+工兵3+白板16）；证据：`piece.test.ts`
   - `rule` TR-3.2: 白板棋子初始 rank=0；证据：同上
   - `rule` TR-3.3: 棋子定义来自 JSON，代码无类型硬编码等级；证据：代码审查
+  - `rule` TR-3.4: 默认名正确（特色棋子=军旗/地雷/炸弹/工兵，白板=白板）；证据：`piece.test.ts`
 
 ## Task 4: 移动规则引擎
 - **Status**: `pending`
