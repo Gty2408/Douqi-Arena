@@ -89,6 +89,15 @@
       "wins": 0,
       "matchHistory": [],
       "createdAt": 1789764252820
+    },
+    "gty": {
+      "username": "gty",
+      "gameId": "gty",
+      "passwordHash": "$2a$10$rSHWmreJH1uu6e2kYz3Sl.d4Nk3gvb/LYkNy5lXgN/PsjCmo0xQCe",
+      "luck": 0,
+      "wins": 0,
+      "matchHistory": [],
+      "createdAt": 1789765747941
     }
   }
 }
