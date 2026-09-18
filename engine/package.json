@@ -1,0 +1,19 @@
+{
+  "name": "@junqi/engine",
+  "version": "0.1.0",
+  "description": "Junqi (Land Battle Chess) pure logic game engine with blank-piece level system",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.1",
+    "typescript": "^5.4.0",
+    "vitest": "^1.6.0"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "pieces": [
+    {
+      "type": "flag",
+      "count": 1,
+      "defaultName": "军旗",
+      "movable": false,
+      "canCaptureFlag": false,
+      "attributes": { "rank": -1 }
+    },
+    {
+      "type": "mine",
+      "count": 3,
+      "defaultName": "地雷",
+      "movable": false,
+      "canCaptureFlag": false,
+      "attributes": { "rank": -1 }
+    },
+    {
+      "type": "bomb",
+      "count": 2,
+      "defaultName": "炸弹",
+      "movable": true,
+      "canCaptureFlag": true,
+      "attributes": { "rank": -1 }
+    },
+    {
+      "type": "sapper",
+      "count": 3,
+      "defaultName": "工兵",
+      "movable": true,
+      "canCaptureFlag": true,
+      "canTurnOnRailway": true,
+      "attributes": { "rank": 1 }
+    },
+    {
+      "type": "blank",
+      "count": 16,
+      "defaultName": "白板",
+      "movable": true,
+      "canCaptureFlag": true,
+      "attributes": { "rank": 0 }
+    }
+  ],
+  "levelBudget": 100,
+  "maxRank": 9,
+  "minRank": 0,
+  "maxNameLength": 3
+}

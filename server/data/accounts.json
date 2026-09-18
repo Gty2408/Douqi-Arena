@@ -1,0 +1,94 @@
+{
+  "accounts": {
+    "alice": {
+      "username": "alice",
+      "gameId": "Alice",
+      "passwordHash": "$2a$10$6GeSOTcIPqcGkpwICgmzTOg3LkqA2FqwjHGKYTxME.nGpktEzNf.O",
+      "luck": 0,
+      "wins": 0,
+      "matchHistory": [],
+      "createdAt": 1789760082684
+    },
+    "bob": {
+      "username": "bob",
+      "gameId": "Bob",
+      "passwordHash": "$2a$10$FqIi3VdtAaQB2eFJjE1G9.tIXjybKuM5JN574BcjjHtImeCB5uIES",
+      "luck": 0,
+      "wins": 0,
+      "matchHistory": [],
+      "createdAt": 1789760082790
+    },
+    "testuser": {
+      "username": "testuser",
+      "gameId": "test001",
+      "passwordHash": "$2a$10$E55jN/PwjOgZuT4BR0iUvOf18KJDGVDVf7DCacC7d.YsO3byeYjwa",
+      "luck": 0,
+      "wins": 0,
+      "matchHistory": [],
+      "createdAt": 1789760448016
+    },
+    "alice1": {
+      "username": "alice1",
+      "gameId": "AliceOne",
+      "passwordHash": "$2a$10$3fqom6iYODvihTHX27YdZOgQt/FYTg/NYSaTbLNs1AfJP2kluaP3W",
+      "luck": 0,
+      "wins": 0,
+      "matchHistory": [],
+      "createdAt": 1789760470007
+    },
+    "player1": {
+      "username": "player1",
+      "gameId": "红方一号",
+      "passwordHash": "$2a$10$TSk2esXYvA6FrJVoB7Xdi..EUdaKtu2RrCOQHd9ajEwJYBCJ4ogEC",
+      "luck": 0,
+      "wins": 0,
+      "matchHistory": [],
+      "createdAt": 1789763281601
+    },
+    "player2": {
+      "username": "player2",
+      "gameId": "蓝方二号",
+      "passwordHash": "$2a$10$pgSAvE.FGiAeT7PtOa9SJeZva9ZxcDWi8aIYSMm0GvyTx5mpVnjbO",
+      "luck": 0,
+      "wins": 0,
+      "matchHistory": [],
+      "createdAt": 1789763321213
+    },
+    "e2e_player1": {
+      "username": "e2e_player1",
+      "gameId": "E2E红方",
+      "passwordHash": "$2a$10$16pwhYCcWcjuSEHLaubzYe0czLzZAKi1kX.gSYCVsj5zSbtwU/O6.",
+      "luck": 0,
+      "wins": 0,
+      "matchHistory": [],
+      "createdAt": 1789763555921
+    },
+    "e2e_player2": {
+      "username": "e2e_player2",
+      "gameId": "E2E蓝方",
+      "passwordHash": "$2a$10$1PThPwbZd2xv.eagmFYKlOvqVWWelbr87r77BdZkZx4/5/HNhmDde",
+      "luck": 0,
+      "wins": 0,
+      "matchHistory": [],
+      "createdAt": 1789763586613
+    },
+    "ui_player1": {
+      "username": "ui_player1",
+      "gameId": "ui_player1",
+      "passwordHash": "$2a$10$tVrhD8FFrbyMren86kAd0egi3nPucDxGtr8qz8TfFLXQ1se1UETFy",
+      "luck": 0,
+      "wins": 0,
+      "matchHistory": [],
+      "createdAt": 1789764252642
+    },
+    "ui_player2": {
+      "username": "ui_player2",
+      "gameId": "ui_player2",
+      "passwordHash": "$2a$10$oQndOZz6E9XFAjEkF1jIGeXZSs6pxxburbY1d9lybH4BbczSlBCSC",
+      "luck": 0,
+      "wins": 0,
+      "matchHistory": [],
+      "createdAt": 1789764252820
+    }
+  }
+}

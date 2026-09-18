@@ -1,0 +1,12 @@
+export * from './types.js';
+export { Board } from './board.js';
+export { PieceFactory, PieceRules } from './pieces.js';
+export type { PieceRuleConfig, PieceRulesConfig } from './pieces.js';
+export { getValidMoves } from './movement.js';
+export { resolveCombat } from './combat.js';
+export { validateLayout, validateLevelAllocation, applyLevelAllocation } from './layout.js';
+export { renamePiece } from './rename.js';
+export { serializeStateFor, buildCombatNotification } from './serialization.js';
+export type { CombatNotification } from './serialization.js';
+export { GameEngine } from './engine.js';
+export type { MoveOutcome } from './engine.js';
